@@ -5,7 +5,7 @@ import Button from "./Button";
 
 const Header = ({ index, title, description }) => {
   return (
-    <div className="flex flex-col gap-2 sm:gap-4">
+    <div className="flex flex-col items-center gap-2 sm:gap-4">
       <div className="flex items-center justify-center gap-2">
         <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-400">
           {index}
